@@ -23,14 +23,8 @@ public class Book {
         return this.bookName;
     }
 
-    public String getSurName() {
-        return author.getSurName();
-
-    }
-
-    public String getFirstName() {
-        return author.getFirstName();
-
+    public Author getAuthor() {
+        return author;
     }
 
     public void setYearPublication(int yearPublication) {

@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Объекты автор хеш равен " + (king.hashCode() == сopyKing.hashCode()));
         System.out.println("Объекты книга неэквивалентны " + shooter.equals(breakfast));
         System.out.println("Объекты книга хеш не равен " + (shooter.hashCode() == breakfast.hashCode()));
-        System.out.println("Объекты книга эквивалентны " + shooter.equals(breakfast));
+        System.out.println("Объекты книга эквивалентны " + shooter.equals(сopyShooter));
         System.out.println("Объекты книга хеш равен " + (shooter.hashCode() == сopyShooter.hashCode()));
 
 
