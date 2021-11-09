@@ -20,7 +20,6 @@ public class Main {
         System.out.println(new Book(1958, "Breakfast at Tiffany's", сapote));
         breakfast.setYearPublication(1959);
         System.out.println(new Book(1959, "Breakfast at Tiffany's", сapote));
-
         System.out.println("Объекты автор неэквивалентны " + king.equals(сapote));
         System.out.println("Объекты автор хеш не равен " + (king.hashCode() == сapote.hashCode()));
         System.out.println("Объекты автор эквивалентны " + king.equals(сopyKing));
